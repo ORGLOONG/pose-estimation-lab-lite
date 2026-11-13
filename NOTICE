@@ -1,0 +1,16 @@
+This repository contains a standalone adaptation of the curvature keypoint
+selection workflow from:
+
+  isaacsim/sdg/keypoint_detector/core.py
+  PCGSplineCurvatureDetector
+  Copyright 2024-2025 NVIDIA Corporation & Affiliates
+  Licensed under the Apache License, Version 2.0.
+
+The adaptation is in src/contour_keypoints.py. It extracts the threshold,
+adaptive-percentile, multi-level, and distance-filtering concepts, replaces
+the Isaac Sim configuration/runtime with standalone parameters, and uses a
+NumPy/OpenCV contour representation. The source repository's other files and
+its proprietary configuration module are not included.
+
+All other original code and generated synthetic examples are Copyright (c)
+2026 Pose Estimation Lab contributors and are licensed under the MIT License.
